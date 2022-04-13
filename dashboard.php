@@ -61,7 +61,7 @@
                 </a>
               </li>
                 <li class="nav-item">
-                <a href="organization.php"  class="nav-link" style="background-color: white; ">
+                <a href="allteachings.php"  class="nav-link" style="background-color: white; ">
                   <p style="color: black;">Manage Teachings</p>
                 </a>
               </li>
@@ -78,7 +78,7 @@
             </a>
             <ul class="nav nav-treeview">
                 <li class="nav-item">
-                <a href="organization.php"  class="nav-link" style="background-color: white; ">
+                <a href="messages.php"  class="nav-link" style="background-color: white; ">
                   <p style="color: black;">Manage Message</p>
                 </a>
               </li>

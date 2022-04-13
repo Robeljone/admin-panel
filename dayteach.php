@@ -171,6 +171,42 @@
                         </div>
                     </div>
             </section>
+            <section class="content" style="margin-left: 2px;">
+                <div class="container-fluid">
+                    <!-- SELECT2 EXAMPLE -->
+                    <div class="card card-default">
+                        <div class="card-header">
+                            <h3 class="card-title">List of day teach</h3>
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <table id="example2" class="table table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Full-Name</th>
+                                        <th>Date-Published</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th>Full-Name</th>
+                                        <th>Date-Published</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+            </section>
         </div>
     </div>
     <script src="public/plugins/jquery/jquery.min.js"></script>
@@ -180,6 +216,6 @@
     <script src="public/dist/js/adminlte.min.js"></script>
     <!-- AdminLTE for demo purposes -->
     <script src="public/dist/js/demo.js"></script>
-    <script src="../../dist/js/demo.js"></script>
+    <script src="public/dist/js/demo.js"></script>
 </body>
 </html>
