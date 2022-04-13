@@ -137,7 +137,7 @@
                     <div class="row mb-2">
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item active">Manage day Teach</li>
+                                <li class="breadcrumb-item active">Manage messages</li>
                             </ol>
                         </div>
                     </div>
@@ -145,36 +145,7 @@
             </section>
 
             <section class="content" style="margin-left: 2px;">
-                <div class="container-fluid">
-                    <!-- SELECT2 EXAMPLE -->
-                    <div class="card card-default">
-                        <div class="card-header">
-                            <h3 class="card-title">Manage Daily Teachings</h3>
-                            <div class="card-tools">
-                                <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                                    <i class="fas fa-minus"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                            <label class="form-group">Full-Name</label>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Please input Full Name *" value=""
-                                    required="required" />
-                            </div>
-                            <label class="form-group">Date-Published</label>
-                            <div class="form-group">
-                                <input type="date" class="form-control" placeholder="Please input Full Name *" value=""
-                                    required="required" />
-                            </div>
-                            <label class="form-group">Images</label>
-                            <div class="form-group">
-                                <input type="file" class="form-control" placeholder="Please input Full Name *" value=""
-                                    required="required" />
-                            </div>
-                        </div>
-                    </div>
+               
             </section>
         </div>
     </div>

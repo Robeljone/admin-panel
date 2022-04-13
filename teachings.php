@@ -42,7 +42,7 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color: white; ">
     <!-- Brand Logo -->
-    <a href="public/index3.html" class="brand-link" >
+    <a href="dashboard.php" class="brand-link" >
       <img src="public/images/comlog.jpg" alt="Company Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light" style="color: black;">Admin Panel</span>
     </a>

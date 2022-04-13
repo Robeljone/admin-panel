@@ -39,7 +39,7 @@
                 </li>
                 <li>
                     <a class="nav-link" data-slide="true" role="button">
-                        <p>Manage Teachings</p>
+                        <p>Manage All Teachings</p>
                     </a>
                 </li>
             </ul>
@@ -137,7 +137,7 @@
                     <div class="row mb-2">
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item active">Manage day Teach</li>
+                                <li class="breadcrumb-item active">Manage All Teach</li>
                             </ol>
                         </div>
                     </div>
@@ -149,7 +149,7 @@
                     <!-- SELECT2 EXAMPLE -->
                     <div class="card card-default">
                         <div class="card-header">
-                            <h3 class="card-title">Manage Daily Teachings</h3>
+                            <h3 class="card-title">Manage All Teachings</h3>
                             <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="collapse">
                                     <i class="fas fa-minus"></i>
@@ -172,6 +172,14 @@
                             <div class="form-group">
                                 <input type="file" class="form-control" placeholder="Please input Full Name *" value=""
                                     required="required" />
+                            </div>
+                            <label class="form-group">catagoty</label>
+                            <div class="form-group">
+                               <select class="form-control">
+                                   <option>Catagory one</option>
+                                   <option>Catagory two</option>
+                                   <option>Catagory three</option>
+                               </select>
                             </div>
                         </div>
                     </div>
