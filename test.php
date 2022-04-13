@@ -4,21 +4,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AdminLTE 3 | Editors</title>
+<title>AdminLTE 3 | DataTables</title>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
 
 <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
 
+<link rel="stylesheet" href="../../plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" href="../../plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+<link rel="stylesheet" href="../../plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+
 <link rel="stylesheet" href="../../dist/css/adminlte.min.css?v=3.2.0">
-
-<link rel="stylesheet" href="../../plugins/summernote/summernote-bs4.min.css">
-
-<link rel="stylesheet" href="../../plugins/codemirror/codemirror.css">
-<link rel="stylesheet" href="../../plugins/codemirror/theme/monokai.css">
-
-<link rel="stylesheet" href="../../plugins/simplemde/simplemde.min.css">
-<script nonce="6f09fd51-e04a-4f29-9909-6660298bc682">(function(w,d){!function(a,e,t,r){a.zarazData=a.zarazData||{},a.zarazData.executed=[],a.zaraz={deferred:[]},a.zaraz.q=[],a.zaraz._f=function(e){return function(){var t=Array.prototype.slice.call(arguments);a.zaraz.q.push({m:e,a:t})}};for(const e of["track","set","ecommerce","debug"])a.zaraz[e]=a.zaraz._f(e);a.addEventListener("DOMContentLoaded",(()=>{var t=e.getElementsByTagName(r)[0],z=e.createElement(r),n=e.getElementsByTagName("title")[0];for(n&&(a.zarazData.t=e.getElementsByTagName("title")[0].text),a.zarazData.w=a.screen.width,a.zarazData.h=a.screen.height,a.zarazData.j=a.innerHeight,a.zarazData.e=a.innerWidth,a.zarazData.l=a.location.href,a.zarazData.r=e.referrer,a.zarazData.k=a.screen.colorDepth,a.zarazData.n=e.characterSet,a.zarazData.o=(new Date).getTimezoneOffset(),a.zarazData.q=[];a.zaraz.q.length;){const e=a.zaraz.q.shift();a.zarazData.q.push(e)}z.defer=!0,z.referrerPolicy="origin",z.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(a.zarazData))),t.parentNode.insertBefore(z,t)}))}(w,d,0,"script");})(window,document);</script></head>
+<script nonce="74c84fa9-1e41-482f-9687-c3bce783a370">(function(w,d){!function(a,e,t,r){a.zarazData=a.zarazData||{},a.zarazData.executed=[],a.zaraz={deferred:[]},a.zaraz.q=[],a.zaraz._f=function(e){return function(){var t=Array.prototype.slice.call(arguments);a.zaraz.q.push({m:e,a:t})}};for(const e of["track","set","ecommerce","debug"])a.zaraz[e]=a.zaraz._f(e);a.addEventListener("DOMContentLoaded",(()=>{var t=e.getElementsByTagName(r)[0],z=e.createElement(r),n=e.getElementsByTagName("title")[0];for(n&&(a.zarazData.t=e.getElementsByTagName("title")[0].text),a.zarazData.w=a.screen.width,a.zarazData.h=a.screen.height,a.zarazData.j=a.innerHeight,a.zarazData.e=a.innerWidth,a.zarazData.l=a.location.href,a.zarazData.r=e.referrer,a.zarazData.k=a.screen.colorDepth,a.zarazData.n=e.characterSet,a.zarazData.o=(new Date).getTimezoneOffset(),a.zarazData.q=[];a.zaraz.q.length;){const e=a.zaraz.q.shift();a.zarazData.q.push(e)}z.defer=!0,z.referrerPolicy="origin",z.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(a.zarazData))),t.parentNode.insertBefore(z,t)}))}(w,d,0,"script");})(window,document);</script></head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
 
@@ -91,7 +88,7 @@ John Pierce
 <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
 </h3>
 <p class="text-sm">I got your message bro</p>
- <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+<p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
 </div>
 </div>
 
@@ -291,7 +288,7 @@ Layout Options
 <a href="#" class="nav-link">
 <i class="nav-icon fas fa-chart-pie"></i>
 <p>
-Charts
+ Charts
 <i class="right fas fa-angle-left"></i>
 </p>
 </a>
@@ -381,8 +378,8 @@ UI Elements
 </li>
 </ul>
 </li>
-<li class="nav-item menu-open">
-<a href="#" class="nav-link active">
+<li class="nav-item">
+<a href="#" class="nav-link">
 <i class="nav-icon fas fa-edit"></i>
 <p>
 Forms
@@ -403,7 +400,7 @@ Forms
 </a>
 </li>
 <li class="nav-item">
-<a href="../forms/editors.html" class="nav-link active">
+<a href="../forms/editors.html" class="nav-link">
 <i class="far fa-circle nav-icon"></i>
 <p>Editors</p>
 </a>
@@ -416,8 +413,8 @@ Forms
 </li>
 </ul>
 </li>
-<li class="nav-item">
-<a href="#" class="nav-link">
+<li class="nav-item menu-open">
+<a href="#" class="nav-link active">
 <i class="nav-icon fas fa-table"></i>
 <p>
 Tables
@@ -432,7 +429,7 @@ Tables
 </a>
 </li>
 <li class="nav-item">
-<a href="../tables/data.html" class="nav-link">
+<a href="../tables/data.html" class="nav-link active">
 <i class="far fa-circle nav-icon"></i>
 <p>DataTables</p>
 </a>
@@ -620,7 +617,7 @@ Login & Register v1
 <i class="far fa-circle nav-icon"></i>
 <p>
 Login & Register v2
- <i class="fas fa-angle-left right"></i>
+<i class="fas fa-angle-left right"></i>
 </p>
 </a>
 <ul class="nav nav-treeview">
@@ -724,7 +721,7 @@ Search
 </ul>
 </li>
 <li class="nav-header">MISCELLANEOUS</li>
- <li class="nav-item">
+<li class="nav-item">
 <a href="../../iframe.html" class="nav-link">
 <i class="nav-icon fas fa-ellipsis-h"></i>
 <p>Tabbed IFrame Plugin</p>
@@ -833,12 +830,12 @@ Level 2
 <div class="container-fluid">
 <div class="row mb-2">
 <div class="col-sm-6">
-<h1>Text Editors</h1>
+<h1>DataTables</h1>
 </div>
 <div class="col-sm-6">
 <ol class="breadcrumb float-sm-right">
 <li class="breadcrumb-item"><a href="#">Home</a></li>
-<li class="breadcrumb-item active">Text Editors</li>
+<li class="breadcrumb-item active">DataTables</li>
 </ol>
 </div>
 </div>
@@ -846,57 +843,44 @@ Level 2
 </section>
 
 <section class="content">
+<div class="container-fluid">
 <div class="row">
-<div class="col-md-12">
-<div class="card card-outline card-info">
+<div class="col-12">
+<div class="card">
 <div class="card-header">
-<h3 class="card-title">
-Summernote
-</h3>
+<h3 class="card-title">DataTable with minimal features & hover style</h3>
 </div>
 
 <div class="card-body">
-<textarea id="summernote">
-                Place <em>some</em> <u>text</u> <strong>here</strong>
-              </textarea>
-</div>
-<div class="card-footer">
-Visit <a href="https://github.com/summernote/summernote/">Summernote</a> documentation for more examples and information about the plugin.
-</div>
-</div>
+<table id="example2" class="table table-bordered table-hover">
+<thead>
+<tr>
+<th>Rendering engine</th>
+<th>Browser</th>
+<th>Platform(s)</th>
+<th>Engine version</th>
+<th>CSS grade</th>
+</tr>
+</thead>
+<tbody>
+
+</tbody>
+<tfoot>
+<tr>
+<th>Rendering engine</th>
+<th>Browser</th>
+ <th>Platform(s)</th>
+<th>Engine version</th>
+<th>CSS grade</th>
+</tr>
+</tfoot>
+</table>
 </div>
 
 </div>
 
-<div class="row">
-<div class="col-md-12">
-<div class="card card-outline card-info">
-<div class="card-header">
-<h3 class="card-title">
-CodeMirror
-</h3>
 </div>
 
-<div class="card-body p-0">
-<textarea id="codeMirrorDemo" class="p-3"><div class="info-box bg-gradient-info">
-  <span class="info-box-icon"><i class="far fa-bookmark"></i></span>
-  <div class="info-box-content">
-    <span class="info-box-text">Bookmarks</span>
-    <span class="info-box-number">41,410</span>
-    <div class="progress">
-      <div class="progress-bar" style="width: 70%"></div>
-    </div>
-    <span class="progress-description">
-      70% Increase in 30 Days
-    </span>
-  </div>
-</div>
-              </textarea>
-</div>
-<div class="card-footer">
-Visit <a href="https://codemirror.net/">CodeMirror</a> documentation for more examples and information about the plugin.
-</div>
-</div>
 </div>
 
 </div>
@@ -923,28 +907,39 @@ Visit <a href="https://codemirror.net/">CodeMirror</a> documentation for more ex
 
 <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+<script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="../../plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+<script src="../../plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+<script src="../../plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+<script src="../../plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+<script src="../../plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+<script src="../../plugins/jszip/jszip.min.js"></script>
+<script src="../../plugins/pdfmake/pdfmake.min.js"></script>
+<script src="../../plugins/pdfmake/vfs_fonts.js"></script>
+<script src="../../plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+<script src="../../plugins/datatables-buttons/js/buttons.print.min.js"></script>
+<script src="../../plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+
 <script src="../../dist/js/adminlte.min.js?v=3.2.0"></script>
-
-<script src="../../plugins/summernote/summernote-bs4.min.js"></script>
-
-<script src="../../plugins/codemirror/codemirror.js"></script>
-<script src="../../plugins/codemirror/mode/css/css.js"></script>
-<script src="../../plugins/codemirror/mode/xml/xml.js"></script>
-<script src="../../plugins/codemirror/mode/htmlmixed/htmlmixed.js"></script>
 
 <script src="../../dist/js/demo.js"></script>
 
 <script>
   $(function () {
-    // Summernote
-    $('#summernote').summernote()
-
-    // CodeMirror
-    CodeMirror.fromTextArea(document.getElementById("codeMirrorDemo"), {
-      mode: "htmlmixed",
-      theme: "monokai"
+    $("#example1").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false,
+      "responsive": true,
     });
-  })
+  });
 </script>
 </body>
 </html>
