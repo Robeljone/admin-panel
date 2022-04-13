@@ -109,18 +109,13 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="cards.php" class="nav-link" style="background-color: white; ">
+                                    <a href="video.php" class="nav-link" style="background-color: white; ">
                                         <p style="color: black;">Manage Video Teachings</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="organization.php" class="nav-link" style="background-color: white; ">
-                                        <p style="color: black;">Manage audio Teachings</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="organization.php" class="nav-link" style="background-color: white; ">
-                                        <p style="color: black;">Manage articel Teachings</p>
+                                    <a href="othermedia.php" class="nav-link" style="background-color: white; ">
+                                        <p style="color: black;">Manage audio/article Teachings</p>
                                     </a>
                                 </li>
                             </ul>
@@ -170,7 +165,7 @@
                             </div>
                             <label class="form-group">Images</label>
                             <div class="form-group">
-                                <input type="file" class="form-control" placeholder="Please input Full Name *" value=""
+                                <input type="file" class="form-control" accept="image/*" placeholder="Please input Full Name *" value=""
                                     required="required" />
                             </div>
                             <label class="form-group">catagoty</label>

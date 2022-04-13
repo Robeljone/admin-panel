@@ -39,7 +39,7 @@
                 </li>
                 <li>
                     <a class="nav-link" data-slide="true" role="button">
-                        <p>Manage Teachings</p>
+                        <p>Manage Messages</p>
                     </a>
                 </li>
             </ul>
@@ -109,18 +109,13 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="cards.php" class="nav-link" style="background-color: white; ">
+                                    <a href="video.php" class="nav-link" style="background-color: white; ">
                                         <p style="color: black;">Manage Video Teachings</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="organization.php" class="nav-link" style="background-color: white; ">
-                                        <p style="color: black;">Manage audio Teachings</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="organization.php" class="nav-link" style="background-color: white; ">
-                                        <p style="color: black;">Manage articel Teachings</p>
+                                    <a href="othermedia.php" class="nav-link" style="background-color: white; ">
+                                        <p style="color: black;">Manage audio/article Teachings</p>
                                     </a>
                                 </li>
                             </ul>
@@ -142,10 +137,43 @@
                         </div>
                     </div>
                 </div><!-- /.container-fluid -->
-            </section>
+</section>
 
             <section class="content" style="margin-left: 2px;">
-               
+                <div class="container-fluid">
+                    <!-- SELECT2 EXAMPLE -->
+                    <div class="card card-default">
+                        <div class="card-header">
+                            <h3 class="card-title">Manage All Messages</h3>
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <label class="form-group">Full-Name</label>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Please input Full Name *" value=""
+                                    required="required" />
+                            </div>
+                            <label class="form-group">Date-Published</label>
+                            <div class="form-group">
+                                <input type="date" class="form-control" placeholder="Please input Full Name *" value=""
+                                    required="required" />
+                            </div>
+                            <label class="form-group">Images</label>
+                            <div class="form-group">
+                                <input type="file" class="form-control" accept="image/*" placeholder="Please input Full Name *" value=""
+                                    required="required" />
+                            </div>
+                            <label class="form-group">Message</label>
+                            <div class="form-group">
+                              
+                            </div>
+                        </div>
+                    </div>
             </section>
         </div>
     </div>

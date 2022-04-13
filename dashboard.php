@@ -94,18 +94,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="cards.php"  class="nav-link" style="background-color: white; ">
+                <a href="video.php"  class="nav-link" style="background-color: white; ">
                   <p style="color: black;">Manage Video Teachings</p>
                 </a>
               </li>
                 <li class="nav-item">
-                <a href="organization.php"  class="nav-link" style="background-color: white; ">
-                  <p style="color: black;">Manage audio Teachings</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="organization.php"  class="nav-link" style="background-color: white; ">
-                  <p style="color: black;">Manage articel Teachings</p>
+                <a href="othermedia.php"  class="nav-link" style="background-color: white; ">
+                  <p style="color: black;">Manage audio/article Teachings</p>
                 </a>
               </li>
             </ul>

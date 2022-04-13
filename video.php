@@ -39,7 +39,7 @@
                 </li>
                 <li>
                     <a class="nav-link" data-slide="true" role="button">
-                        <p>Manage Day Teachings</p>
+                        <p>Manage Video Media</p>
                     </a>
                 </li>
             </ul>
@@ -132,7 +132,7 @@
                     <div class="row mb-2">
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item active">Manage day Teach</li>
+                                <li class="breadcrumb-item active">Manage Video Media</li>
                             </ol>
                         </div>
                     </div>
@@ -144,7 +144,7 @@
                     <!-- SELECT2 EXAMPLE -->
                     <div class="card card-default">
                         <div class="card-header">
-                            <h3 class="card-title">Manage Daily Teachings</h3>
+                            <h3 class="card-title">Manage Video Media</h3>
                             <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="collapse">
                                     <i class="fas fa-minus"></i>
@@ -160,14 +160,64 @@
                             </div>
                             <label class="form-group">Date-Published</label>
                             <div class="form-group">
-                                <input type="date" class="form-control" placeholder="Please input Full Name *" value=""
-                                    required="required" />
+                                <input type="date" class="form-control" placeholder="Please input date publiished *"
+                                    value="" required="required" />
                             </div>
                             <label class="form-group">Images</label>
                             <div class="form-group">
-                                <input type="file" class="form-control" accept="image/*" placeholder="Please input Full Name *" value=""
+                                <input type="file" class="form-control" accept="image/*"
+                                    placeholder="Please input file *" value="" required="required" />
+                            </div>
+                            <label class="form-group">Links</label>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Please input video link *" value=""
                                     required="required" />
                             </div>
+                            <label class="form-group">Description</label>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Please input video description *"
+                                    value="" required="required" />
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="content" style="margin-left: 2px;">
+                <div class="container-fluid">
+                    <!-- SELECT2 EXAMPLE -->
+                    <div class="card card-default">
+                        <div class="card-header">
+                            <h3 class="card-title">List of Video Media</h3>
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <table id="example2" class="table table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Full-Name</th>
+                                        <th>Date-Published</th>
+                                        <th>Link</th>
+                                        <th>Description</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th>Full-Name</th>
+                                        <th>Date-Published</th>
+                                        <th>Link</th>
+                                        <th>Description</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
                         </div>
                     </div>
             </section>
@@ -180,6 +230,26 @@
     <script src="public/dist/js/adminlte.min.js"></script>
     <!-- AdminLTE for demo purposes -->
     <script src="public/dist/js/demo.js"></script>
-    <script src="../../dist/js/demo.js"></script>
+    <script src="public/dist/js/demo.js"></script>
+    <script>
+    $(function() {
+        $("#example1").DataTable({
+            "responsive": true,
+            "lengthChange": false,
+            "autoWidth": false,
+            "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+        }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+        $('#example2').DataTable({
+            "paging": true,
+            "lengthChange": false,
+            "searching": false,
+            "ordering": true,
+            "info": true,
+            "autoWidth": false,
+            "responsive": true,
+        });
+    });
+    </script>
 </body>
+
 </html>
